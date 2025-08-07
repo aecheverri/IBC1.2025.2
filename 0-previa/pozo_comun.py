@@ -15,6 +15,7 @@ capitales_iniciales = np.full(101,1)
 pozo = 0
 print(capitales_iniciales)
 for jugada in range(1000):
+  pozo = 0
   for capital in capitales_iniciales:
     pozo +=  dinero_final(capital, 0.5)
   capitales_iniciales = np.full(len(capitales_iniciales), pozo / len(capitales_iniciales) )
