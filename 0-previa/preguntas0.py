@@ -384,10 +384,10 @@ respuestas[(1,13,"Fondo común")] = [
 
 # %%
 respuestas[(1,14,"Tragedia de los comunes")] = [
-0, # 0. Nos conviene aportar al fondo común
+3/4, # 0. Nos conviene aportar al fondo común
 0, # 1. Es indistinto
-0, # 1. Nos conviene dejar de aportar mientras seguimos recibiendo la cuota del fondo común
-"Justifique brevemente.",
+1/4, # 1. Nos conviene dejar de aportar mientras seguimos recibiendo la cuota del fondo común
+"Supongo que así como una persona pienso en dejar de aportar, esto podría ser imitado por otros participantes y entonces las ganancias se reducirían.",
 ]
 
 
